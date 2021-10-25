@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 2rem;
+}
+
+.column1{
+    height: 17vh;
+    width: 3.3vw;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    align-items: center;
+}
+
+.column1 input{
+    height: 4vh;
+    width: 3vw;
+}
