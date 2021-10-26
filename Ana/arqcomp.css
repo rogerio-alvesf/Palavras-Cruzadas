@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 35px;
+    height: 60px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+
+#ram {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+
+#rom {
+    margin: -19.65% 0 0 44.8%;
+}

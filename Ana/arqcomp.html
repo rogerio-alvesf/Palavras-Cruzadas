@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavras Cruzadas</title>
+    <link rel="stylesheet" href="arqcomp.css">
+</head>
+<body>
+    <button>Start</button>
+
+    <section>
+        <div class="titulo">
+        <h3>Bem vindo ao nosso caça palavras!</h3>
+        </div>
+        <div id="ram">
+            <input onkeyup="word_ram()" maxlength="1" id="r_ram">
+            <input onkeyup="word_ram()" maxlength="1" id="a_ram">
+            <input onkeyup="word_ram()" maxlength="1" id="m_ram">
+        </div>
+        <div id="cpu">
+            <input maxlength="1" id="c_cpu">
+            <input maxlength="1" id="p_cpu">
+            <input maxlength="1" id="u_cpu">
+        </div>
+        <div id="rom">
+            <input onkeyup="word_rom()" maxlength="1" id="o_rom">
+            <input onkeyup="word_rom()" maxlength="1" id="m_rom">
+        </div>
+    </section>
+    <script src="arqcomp.js"></script>
+</body>
+</html>
