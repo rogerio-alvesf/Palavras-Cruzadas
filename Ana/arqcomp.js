@@ -4,7 +4,7 @@
     var m = m_ram.value
 
     function word_ram(){
-    if (r == "R" && a == "A" && m == "M"){
+    if (r == "r" && a == "a" && m == "m"){
         r_ram.style.backgroundColor = "green";
         a_ram.style.backgroundColor = "green";
         m_ram.style.backgroundColor = "green";

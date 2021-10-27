@@ -15,41 +15,105 @@ input {
   font-weight: 600;
 }
 
+button {
+  display: none;
+}
+
+span {
+  text-align: center;
+  background-color: blue;
+  border-radius: 50%;
+}
+
 .grid {
   display: grid;
+  max-width: 90vw;
 }
 
 .grid-template-areas {
  
   grid-template-areas:
-    "c s  . . d a3 t a4 space1 b u2 s4 . . . . . . . . . . ."
-    "p .  r o m . . d2 . . . . . . . . . q . . . . ."
-    "u l a . a2 . . r1 . . . . . . . . . u4 . . . . ."
-    ". .  m2 . . . . e p2 r2 o1 m3 . . . . . a10 . . . . ."
-    ". .  . . . . . s1 . . . e1 . . . . . d3 . . . . ."
-    ". .  . . f l2 a5 s2 h . . m4 . . . . . space6 . . . . ."
-    ". .  . . . . . space2 . . . o2 . . . . . c2 . . . . ."
-    ". .  . . . . . b2 . . . r3 . . . . . o3 . . . . ."
-    ". .  . . . . . u3 . . . i i5 . . . . r4 . . . . ."
-    ". .  . . . . . s3 . d1 u5 a9 l3 space5 c3 o4 r5 e2 . . . . ."
-    ". .  . . . . . . . . . space3 . . . . . . . . . . ."
-    ". .  . . . . . . . . . d4 . . . . . . . . . . ."
-    ". .  . . . . . . . . r6 e4 g i1 s5 t1 r7 a8 d5 o5 r8 e3 s6"
-    ". .  . . . . . . . . . space4 . i7 . . . . . . . . ."
-    ". .  . . . . . . . . . m5 . . . . . . . . . . ."
-    ". .  . . . . . . . . . a6 . . . . . . . . . . ."
-    ". .  . . . . . . . . . s7 . . . . . . . . . . ."
-    ". .  . . . . . . . . . s8 . . . . . . . . . . ."
-    ". .  . . . . . . . . . a7 . . . . . . . . . . .";
+    ". ordem2 . . . ordem4 . . ordem10 . . . . . oi . . . . . . . . ."
+    ". c . . ordem6 d a3 t a4 space1 b u2 s4 . . . . . ordem7 . . . . ."
+    ". p ordem3 r o m . . d2 . . . . . . . . . q . . . . ."
+    "ordem13 u l a . a2 . . r1 . . . ordem15 . . . . . u4 . . . . ."
+    ". . . m2 . . . ordem14 e p2 r2 o1 m3 . . . . . a10 . . . . ."
+    ". . . . . . . . s1 . . . e1 . . . . . d3 . . . . ."
+    ". . . . ordem5 f l2 a5 s2 h . . m4 . . . . . space6 . . . . ."
+    ". . . . . . . . space2 . . . o2 . . . . ordem1 c2 s . . . ."
+    ". . . . . . . . b2 . . . r3 . . . . . o3 . . . . ."
+    ". . . . . . . . u3 . . ordem12 i i5 . . . . r4 . . . . ."
+    ". . . . . . . . s3 ordem9 d1 u5 a9 l3 space5 c3 o4 r5 e2 . . . . ."
+    ". . . . . . . . . . . . space3 . . . . . . . . . . ."
+    ". . . . . . . . . . . . d4 . ordem11 . . . . . . . . ."
+    ". . . . . . . . . . ordem8 r6 e4 g i1 s5 t1 r7 a8 d5 o5 r8 e3 s6"
+    ". . . . . . . . . . . . space4 . i7 . . . . . . . . ."
+    ". . . . . . . . . . . . m5 . . . . . . . . . . ."
+    ". . . . . . . . . . . . a6 . . . . . . . . . . ."
+    ". . . . . . . . . . . . s7 . . . . . . . . . . ."
+    ". . . . . . . . . . . . s8 . . . . . . . . . . ."
+    ". . . . . . . . . . . . a7 . . . . . . . . . . .";
 }
 
 .grid {
-  margin: 0 0 0 70px;
+  margin: 0 auto;
+  max-width: 90vh;
 }
 /* 
 div {
     width: 40px !important;
 } */
+
+#oi {
+  grid-area: oi
+}
+
+
+#ordem_1{
+  grid-area: ordem1
+}
+
+#ordem_2{
+  grid-area: ordem2
+}
+#ordem_3{
+  grid-area: ordem3
+}
+#ordem_4{
+  grid-area: ordem4
+}
+#ordem_5{
+  grid-area: ordem5
+}
+#ordem_6{
+  grid-area: ordem6
+}
+#ordem_7{
+  grid-area: ordem7
+}
+#ordem_8{
+  grid-area: ordem8
+}
+#ordem_9{
+  grid-area: ordem9
+}
+#ordem_10{
+  grid-area: ordem10
+}
+#ordem_11{
+  grid-area: ordem11
+}
+#ordem_12{
+  grid-area: ordem12
+}#ordem_13{
+  grid-area: ordem13
+}#ordem_14{
+  grid-area: ordem14
+}#ordem_15{
+  grid-area: ordem15
+}
+
+
 
 #r_ram {
   grid-area: r;
