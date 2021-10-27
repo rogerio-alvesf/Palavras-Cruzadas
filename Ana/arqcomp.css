@@ -1,24 +1,309 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: teal;
+  margin: 0;
+  padding: 0;
+  background-color: teal;
 }
 
 input {
-    outline: none;
-    border: none;
-    width: 35px;
-    height: 60px;
-    margin-bottom: 5px;
-    padding-left: 25px;
+  outline: none;
+  border: none;
+  width: 20px;
+  height: 30px;
+  margin: 2px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-#ram {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40%;
+.grid {
+  display: grid;
 }
 
-#rom {
-    margin: -19.65% 0 0 44.8%;
+.grid-template-areas {
+ 
+  grid-template-areas:
+    "c s  . . d a3 t a4 space1 b u2 s4 . . . . . . . . . . ."
+    "p .  r o m . . d2 . . . . . . . . . q . . . . ."
+    "u l a . a2 . . r1 . . . . . . . . . u4 . . . . ."
+    ". .  m2 . . . . e p2 r2 o1 m3 . . . . . a10 . . . . ."
+    ". .  . . . . . s1 . . . e1 . . . . . d3 . . . . ."
+    ". .  . . f l2 a5 s2 h . . m4 . . . . . space6 . . . . ."
+    ". .  . . . . . space2 . . . o2 . . . . . c2 . . . . ."
+    ". .  . . . . . b2 . . . r3 . . . . . o3 . . . . ."
+    ". .  . . . . . u3 . . . i i5 . . . . r4 . . . . ."
+    ". .  . . . . . s3 . d1 u5 a9 l3 space5 c3 o4 r5 e2 . . . . ."
+    ". .  . . . . . . . . . space3 . . . . . . . . . . ."
+    ". .  . . . . . . . . . d4 . . . . . . . . . . ."
+    ". .  . . . . . . . . r6 e4 g i1 s5 t1 r7 a8 d5 o5 r8 e3 s6"
+    ". .  . . . . . . . . . space4 . i7 . . . . . . . . ."
+    ". .  . . . . . . . . . m5 . . . . . . . . . . ."
+    ". .  . . . . . . . . . a6 . . . . . . . . . . ."
+    ". .  . . . . . . . . . s7 . . . . . . . . . . ."
+    ". .  . . . . . . . . . s8 . . . . . . . . . . ."
+    ". .  . . . . . . . . . a7 . . . . . . . . . . .";
+}
+
+.grid {
+  margin: 0 0 0 70px;
+}
+/* 
+div {
+    width: 40px !important;
+} */
+
+#r_ram {
+  grid-area: r;
+}
+#a_ram {
+  grid-area: a;
+}
+#m_ram {
+  grid-area: m2;
+}
+#c_cpu {
+  grid-area: c;
+}
+#p_cpu {
+  grid-area: p;
+}
+#u_cpu {
+  grid-area: u;
+}
+
+#o_rom {
+  grid-area: o;
+}
+#s_cs {
+  grid-area: s;
+}
+#l_ula {
+  grid-area: l;
+}
+#r_registradores {
+  grid-area: r6;
+}
+
+#g_registradores {
+  grid-area: g;
+}
+#i_registradores {
+  grid-area: i1;
+}
+#s_registradores {
+  grid-area: s5;
+}
+#t_registradores {
+  grid-area: t1;
+}
+
+#r3_registradores {
+  grid-area: r7;
+}
+#a_registradores {
+  grid-area: a8;
+}
+#d_registradores {
+  grid-area: d5;
+}
+#o_registradores {
+  grid-area: o5;
+}
+#r2_registradores {
+  grid-area: r8;
+}
+#e_registradores {
+  grid-area: e3;
+}
+#s2_registradores {
+  grid-area: s6;
+}
+
+#p_eprom {
+  grid-area: p2;
+}
+#r_eprom {
+  grid-area: r2;
+}
+#o_eprom {
+  grid-area: o1;
+}
+#m_eprom {
+  grid-area: m3;
+}
+
+#f_flash {
+  grid-area: f;
+}
+#l_flash {
+  grid-area: l2;
+}
+#a_flash {
+  grid-area: a5;
+}
+
+#h_flash {
+  grid-area: h;
+}
+
+#d_dma {
+  grid-area: d;
+}
+#m_dma {
+  grid-area: m;
+}
+#a_dma {
+  grid-area: a2;
+}
+
+#e_memoria {
+  grid-area: e1;
+}
+#m_memoria {
+  grid-area: m4;
+}
+#o_memoria {
+  grid-area: o2;
+}
+#r_memoria {
+  grid-area: r3;
+}
+#i_memoria {
+  grid-area: i;
+}
+#space_memoria {
+  grid-area: space3;
+}
+#d_memoria {
+  grid-area: d4;
+}
+#e2_memoria {
+  grid-area: e4;
+}
+#space2_memoria {
+  grid-area: space4;
+}
+#m2_memoria {
+  grid-area: m5;
+}
+#a2_memoria {
+  grid-area: a6;
+}
+#s_memoria {
+  grid-area: s7;
+}
+#s2_memoria {
+  grid-area: s8;
+}
+#a3_memoria {
+  grid-area: a7;
+}
+
+#d_adress {
+  grid-area: d2;
+}
+#r_adress {
+  grid-area: r1;
+}
+#e_adress {
+  grid-area: e;
+}
+#s1_adress {
+  grid-area: s1;
+}
+#s2_adress {
+  grid-area: s2;
+}
+#space_adress {
+  grid-area: space2;
+}
+#b_adress {
+  grid-area: b2;
+}
+#u_adress {
+  grid-area: u3;
+}
+#s_adress {
+  grid-area: s3;
+}
+
+#a_data {
+  grid-area: a3;
+}
+#t_data {
+  grid-area: t;
+}
+#a2_data {
+  grid-area: a4;
+}
+#space_data {
+  grid-area: space1;
+}
+#b_data {
+  grid-area: b;
+}
+#u_data {
+  grid-area: u2;
+}
+#s_data {
+  grid-area: s4;
+}
+#i5 {
+  grid-area: i5;
+}
+
+#i7 {
+  grid-area: i7;
+}
+
+#d_dual {
+  grid-area: d1;
+}
+#u_dual {
+  grid-area: u5;
+}
+#a_dual {
+  grid-area: a9;
+}
+#l_dual {
+  grid-area: l3;
+}
+#space_dual {
+  grid-area: space5;
+}
+#c_dual {
+  grid-area: c3;
+}
+#o_dual {
+  grid-area: o4;
+}
+#r_dual {
+  grid-area: r5;
+}
+#e_dual {
+  grid-area: e2;
+}
+
+#q_quad {
+  grid-area: q;
+}
+#u_quad {
+  grid-area: u4;
+}
+#a_quad {
+  grid-area: a10;
+}
+#d_quad {
+  grid-area: d3;
+}
+#space_quad {
+  grid-area: space6;
+}
+#c_quad {
+  grid-area: c2;
+}
+#o_quad {
+  grid-area: o3;
+}
+#r_quad {
+  grid-area: r4;
 }

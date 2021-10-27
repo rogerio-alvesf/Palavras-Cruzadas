@@ -1,34 +1,199 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Palavras Cruzadas</title>
-    <link rel="stylesheet" href="arqcomp.css">
-</head>
-<body>
-    <button>Start</button>
+    <link rel="stylesheet" href="arqcomp.css" />
+  </head>
+  <body>
+    <section id="start">
+      <button>Start</button>
+    </section>
 
     <section>
-        <div class="titulo">
-        <h3>Bem vindo ao nosso caça palavras!</h3>
-        </div>
-        <div id="ram">
-            <input onkeyup="word_ram()" maxlength="1" id="r_ram">
-            <input onkeyup="word_ram()" maxlength="1" id="a_ram">
-            <input onkeyup="word_ram()" maxlength="1" id="m_ram">
-        </div>
-        <div id="cpu">
-            <input maxlength="1" id="c_cpu">
-            <input maxlength="1" id="p_cpu">
-            <input maxlength="1" id="u_cpu">
-        </div>
-        <div id="rom">
-            <input onkeyup="word_rom()" maxlength="1" id="o_rom">
-            <input onkeyup="word_rom()" maxlength="1" id="m_rom">
-        </div>
+      <h3>Bem vindo ao nosso caça palavras!</h3>
+
+      <section class="grid grid-template-areas">
+        <!-- RAM -->
+          <input onkeyup="word_ram()" maxlength="1" id="r_ram" />
+          <input onkeyup="word_ram()" maxlength="1" id="a_ram" />
+          <input onkeyup="word_ram()" maxlength="1" id="m_ram" />
+        <!-- CPU -->
+          <input onkeyup="word_cpu()" maxlength="1" id="c_cpu" />
+          <input onkeyup="word_cpu()" maxlength="1" id="p_cpu" />
+          <input onkeyup="word_cpu()" maxlength="1" id="u_cpu" />
+        <!-- ROM -->
+          <input onkeyup="word_rom()" maxlength="1" id="o_rom" />
+        <!-- CS -->
+          <input onkeyup="word_cs()" maxlength="1" id="s_cs" />
+        <!-- ULA -->
+          <input onkeyup="word_ula()" maxlength="1" id="l_ula" />
+        <!-- REGISTRADORES -->
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="r_registradores"
+          />
+
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="g_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="i_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="s_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="t_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="r3_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="a_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="d_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="o_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="r2_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="e_registradores"
+          />
+          <input
+            onkeyup="word_registradores()"
+            maxlength="1"
+            id="s2_registradores"
+          />
+        <!-- EPROM -->
+          <input onkeyup="word_eprom()" maxlength="1" id="p_eprom" />
+          <input onkeyup="word_eprom()" maxlength="1" id="r_eprom" />
+          <input onkeyup="word_eprom()" maxlength="1" id="o_eprom" />
+          <input onkeyup="word_eprom()" maxlength="1" id="m_eprom" />
+        <!-- FLASH -->
+          <input onkeyup="word_flash()" maxlength="1" id="f_flash" />
+          <input onkeyup="word_flash()" maxlength="1" id="l_flash" />
+          <input onkeyup="word_flash()" maxlength="1" id="a_flash" />
+          <input onkeyup="word_flash()" maxlength="1" id="h_flash" />
+        <!-- DMA -->
+          <input onkeyup="word_dma()" maxlength="1" id="d_dma" />
+          <input onkeyup="word_dma()" maxlength="1" id="m_dma" />
+          <input onkeyup="word_dma()" maxlength="1" id="a_dma" />
+        <!-- MEMORIA -->
+          <input onkeyup="word_memoria()" maxlength="1" id="e_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="m_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="o_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="r_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="i_memoria" />
+          <input
+            onkeyup="word_memoria()"
+            maxlength="0"
+            placeholder="/"
+            id="space_memoria"
+          />
+          <input onkeyup="word_memoria()" maxlength="1" id="d_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="e2_memoria" />
+          <input
+            onkeyup="word_memoria()"
+            maxlength="0"
+            placeholder="/"
+            id="space2_memoria"
+          />
+          <input onkeyup="word_memoria()" maxlength="1" id="m2_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="a2_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="s_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="s2_memoria" />
+          <input onkeyup="word_memoria()" maxlength="1" id="a3_memoria" />
+        <!-- ADRESS -->
+          <input onkeyup="word_adress()" maxlength="1" id="d_adress" />
+          <input onkeyup="word_adress()" maxlength="1" id="r_adress" />
+          <input onkeyup="word_adress()" maxlength="1" id="e_adress" />
+          <input onkeyup="word_adress()" maxlength="1" id="s1_adress" />
+          <input onkeyup="word_adress()" maxlength="1" id="s2_adress" />
+          <input
+            onkeyup="word_adress()"
+            maxlength="0"
+            placeholder="/"
+            id="space_adress"
+          />
+          <input onkeyup="word_adress()" maxlength="1" id="b_adress" />
+          <input onkeyup="word_adress()" maxlength="1" id="u_adress" />
+          <input onkeyup="word_adress()" maxlength="1" id="s_adress" />
+        <!-- DATA -->
+          <input onkeyup="word_data()" maxlength="1" id="a_data" />
+          <input onkeyup="word_data()" maxlength="1" id="t_data" />
+          <input onkeyup="word_data()" maxlength="1" id="a2_data" />
+          <input
+            onkeyup="word_data()"
+            maxlength="0"
+            placeholder="/"
+            id="space_data"
+          />
+          <input onkeyup="word_data()" maxlength="1" id="b_data" />
+          <input onkeyup="word_data()" maxlength="1" id="u_data" />
+          <input onkeyup="word_data()" maxlength="1" id="s_data" />
+        <!-- I5 -->
+          <input onkeyup="word_i5()" maxlength="1" id="i5" />
+        <!-- I7 -->
+          <input onkeyup="word_i7()" maxlength="1" id="i7" />
+        <!-- DUAL-->
+          <input onkeyup="word_dual()" maxlength="1" id="d_dual" />
+          <input onkeyup="word_dual()" maxlength="1" id="u_dual" />
+          <input onkeyup="word_dual()" maxlength="1" id="a_dual" />
+          <input onkeyup="word_dual()" maxlength="1" id="l_dual" />
+          <input
+            onkeyup="word_dual()"
+            maxlength="0"
+            placeholder="/"
+            id="space_dual"
+          />
+          <input onkeyup="word_dual()" maxlength="1" id="c_dual" />
+          <input onkeyup="word_dual()" maxlength="1" id="o_dual" />
+          <input onkeyup="word_dual()" maxlength="1" id="r_dual" />
+          <input onkeyup="word_dual()" maxlength="1" id="e_dual" />
+        <!-- QUAD -->
+          <input onkeyup="word_quad()" maxlength="1" id="q_quad" />
+          <input onkeyup="word_quad()" maxlength="1" id="u_quad" />
+          <input onkeyup="word_quad()" maxlength="1" id="a_quad" />
+          <input onkeyup="word_quad()" maxlength="1" id="d_quad" />
+          <input
+            onkeyup="word_quad()"
+            maxlength="0"
+            placeholder="/"
+            id="space_quad"
+          />
+          <input onkeyup="word_quad()" maxlength="1" id="c_quad" />
+          <input onkeyup="word_quad()" maxlength="1" id="o_quad" />
+          <input onkeyup="word_quad()" maxlength="1" id="r_quad" />
+      </section>
     </section>
     <script src="arqcomp.js"></script>
-</body>
+  </body>
 </html>
