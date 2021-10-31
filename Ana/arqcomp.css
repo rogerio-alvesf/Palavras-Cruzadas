@@ -3,6 +3,19 @@ body {
   padding: 0;
   background-color: teal;
 }
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 20px;
+}
 
 input {
   outline: none;
@@ -21,8 +34,11 @@ button {
 
 span {
   text-align: center;
-  background-color: blue;
-  border-radius: 50%;
+  padding: 10px;
+}
+
+.h3 {
+  margin-left: 30%;
 }
 
 .grid {
@@ -31,10 +47,9 @@ span {
 }
 
 .grid-template-areas {
- 
   grid-template-areas:
-    ". ordem2 . . . ordem4 . . ordem10 . . . . . oi . . . . . . . . ."
-    ". c . . ordem6 d a3 t a4 space1 b u2 s4 . . . . . ordem7 . . . . ."
+    ". ordem2 . . . ordem4 . . ordem10 . . . . . . . . . . . . . . ."
+    ". c . ordem16 ordem6 d a3 t a4 space1 b u2 s4 . . . . . ordem7 . . . . ."
     ". p ordem3 r o m . . d2 . . . . . . . . . q . . . . ."
     "ordem13 u l a . a2 . . r1 . . . ordem15 . . . . . u4 . . . . ."
     ". . . m2 . . . ordem14 e p2 r2 o1 m3 . . . . . a10 . . . . ."
@@ -56,64 +71,59 @@ span {
 }
 
 .grid {
-  margin: 0 auto;
+  margin-left: 200px;
   max-width: 90vh;
 }
-/* 
-div {
-    width: 40px !important;
-} */
 
-#oi {
-  grid-area: oi
+#ordem_1 {
+  grid-area: ordem1;
 }
 
-
-#ordem_1{
-  grid-area: ordem1
+#ordem_2 {
+  grid-area: ordem2;
 }
-
-#ordem_2{
-  grid-area: ordem2
+#ordem_3 {
+  grid-area: ordem3;
 }
-#ordem_3{
-  grid-area: ordem3
+#ordem_4 {
+  grid-area: ordem4;
 }
-#ordem_4{
-  grid-area: ordem4
+#ordem_5 {
+  grid-area: ordem5;
 }
-#ordem_5{
-  grid-area: ordem5
+#ordem_6 {
+  grid-area: ordem6;
 }
-#ordem_6{
-  grid-area: ordem6
+#ordem_7 {
+  grid-area: ordem7;
 }
-#ordem_7{
-  grid-area: ordem7
+#ordem_8 {
+  grid-area: ordem8;
 }
-#ordem_8{
-  grid-area: ordem8
+#ordem_9 {
+  grid-area: ordem9;
 }
-#ordem_9{
-  grid-area: ordem9
+#ordem_10 {
+  grid-area: ordem10;
 }
-#ordem_10{
-  grid-area: ordem10
+#ordem_11 {
+  grid-area: ordem11;
 }
-#ordem_11{
-  grid-area: ordem11
+#ordem_12 {
+  grid-area: ordem12;
 }
-#ordem_12{
-  grid-area: ordem12
-}#ordem_13{
-  grid-area: ordem13
-}#ordem_14{
-  grid-area: ordem14
-}#ordem_15{
-  grid-area: ordem15
+#ordem_13 {
+  grid-area: ordem13;
 }
-
-
+#ordem_14 {
+  grid-area: ordem14;
+}
+#ordem_15 {
+  grid-area: ordem15;
+}
+#ordem_16 {
+  grid-area: ordem16;
+}
 
 #r_ram {
   grid-area: r;
