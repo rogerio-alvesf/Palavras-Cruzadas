@@ -8,15 +8,214 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container">
-        <div id="column1" class="column1">
-            <b>1</b>
-            <input maxlength="1" type="text" id="c1n1">
-            <input maxlength="1" type="text" id="c1n2">
-            <input maxlength="1" type="text" id="c1n3">
-        </div>
-        <button onclick="verificar()">Verificar</button>
+    <div class="r1">
+        <input type="text" maxlength="1" id="r1c1" onkeyup="check_cpu()">
+        <input type="text" maxlength="1" id="r1c2">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r1c5">
+        <input type="text" maxlength="1" id="r1c6">
+        <input type="text" maxlength="1" id="r1c7">
+        <input type="text" maxlength="1" id="r1c8">
+        <input type="text" maxlength="1" id="r1c9">
+        <input type="text" maxlength="1" id="r1c10">
+        <input type="text" maxlength="1" id="r1c11">
+        <input type="text" maxlength="1" id="r1c12">
+    </div>
+    <div class="r2">
+        <input type="text" maxlength="1" id="r2c1" onkeyup="check_cpu()">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r2c3">
+        <input type="text" maxlength="1" id="r2c4">
+        <input type="text" maxlength="1" id="r2c5">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r2c8">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r2c18">
+    </div>
+    <div class="r3">
+        <input type="text" maxlength="1" id="r3c1" onkeyup="check_cpu()">
+        <input type="text" maxlength="1" id="r3c2">
+        <input type="text" maxlength="1" id="r3c3">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r3c5">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r3c8">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r3c18">
+    </div>
+    <div class="r4">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r4c3">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r4c8">
+        <input type="text" maxlength="1" id="r4c9">
+        <input type="text" maxlength="1" id="r4c10">
+        <input type="text" maxlength="1" id="r4c11">
+        <input type="text" maxlength="1" id="r4c12">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r4c18">
+    </div>
+    <div class="r5">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r5c8">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r5c12">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r5c18">
+    </div>
+    <div class="r6">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r6c8">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r6c12">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r6c18">
+    </div>
+    <div class="r7">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r7c8">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r7c12">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r7c18">
+    </div>
+    <div class="r8">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r8c8">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r8c12">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r8c18">
+    </div>
+    <div class="r9">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r9c8">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r9c12">
+        <input type="text" maxlength="1" id="r9c13">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r9c18">
+        <input type="text" maxlength="1" id="r9c19">
+        <input type="text" maxlength="1" id="r9c20">
+        <input type="text" maxlength="1" id="r9c21">
+        <input type="text" maxlength="1" id="r9c22">
+        <input type="text" maxlength="1" id="r9c23">
+        <input type="text" maxlength="1" id="r9c24">
+        <input type="text" maxlength="1" id="r9c25">
+        <input type="text" maxlength="1" id="r9c26">
+        <input type="text" maxlength="1" id="r9c27">
+        <input type="text" maxlength="1" id="r9c28">
+        <input type="text" maxlength="1" id="r9c29">
+        <input type="text" maxlength="1" id="r9c30">
+    </div>
+    <div class="r10">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r10c5">
+        <input type="text" maxlength="1" id="r10c6">
+        <input type="text" maxlength="1" id="r10c7">
+        <input type="text" maxlength="1" id="r10c8">
+        <input type="text" maxlength="1" id="r10c9">
+        <input type="text" maxlength="1" id="r10c10">
+        <input type="text" maxlength="1" id="r10c11">
+        <input type="text" maxlength="1" id="r10c12">
+        <input type="text" maxlength="1" id="r10c13">
+        <input type="text" maxlength="1" id="r10c14">
+        <input type="text" maxlength="1" id="r10c15">
+        <input type="text" maxlength="1" id="r10c16">
+        <input type="text" maxlength="1" id="r10c17">
+        <input type="text" maxlength="1" id="r10c18">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r10c21">
     </div>
 </body>
 <script src="script.js"></script>

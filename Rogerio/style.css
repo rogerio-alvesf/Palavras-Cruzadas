@@ -1,22 +1,93 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: darkgoldenrod;
 }
 
-.container{
-    padding: 2rem;
+input{
+    height: 2rem;
+    width: 2rem;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid black;
 }
 
-.column1{
-    height: 17vh;
-    width: 3.3vw;
+.r1{
     display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    align-items: center;
 }
 
-.column1 input{
-    height: 4vh;
-    width: 3vw;
+.r1 .ghost{
+    visibility: hidden;
+}
+
+.r2{
+    display: flex;
+}
+
+.r2 .ghost{
+    visibility: hidden;
+}
+
+.r3{
+    display: flex;
+}
+
+.r3 .ghost{
+    visibility: hidden;
+}
+
+.r4{
+    display: flex;
+}
+
+.r4 .ghost{
+    visibility: hidden;
+}
+
+.r5{
+    display: flex;
+}
+
+.r5 .ghost{
+    visibility: hidden;
+}
+
+.r6{
+    display: flex;
+}
+
+.r6 .ghost{
+    visibility: hidden;
+}
+
+.r7{
+    display: flex;
+}
+
+.r7 .ghost{
+    visibility: hidden;
+}
+
+.r8{
+    display: flex;
+}
+
+.r8 .ghost{
+    visibility: hidden;
+}
+
+.r9{
+    display: flex;
+}
+
+.r9 .ghost{
+    visibility: hidden;
+}
+
+.r10{
+    display: flex;
+}
+
+.r10 .ghost{
+    visibility: hidden;
 }
