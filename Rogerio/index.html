@@ -9,28 +9,28 @@
 </head>
 <body>
     <div class="r1">
-        <input type="text" maxlength="1" id="r1c1" onkeyup="check_cpu()">
-        <input type="text" maxlength="1" id="r1c2">
+        <input type="text" maxlength="1" id="r1c1" onkeyup="check_cpu()" onkeyup="check_cs()">
+        <input type="text" maxlength="1" id="r1c2" onkeyup="check_cs()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r1c5">
-        <input type="text" maxlength="1" id="r1c6">
-        <input type="text" maxlength="1" id="r1c7">
-        <input type="text" maxlength="1" id="r1c8">
-        <input type="text" maxlength="1" id="r1c9">
-        <input type="text" maxlength="1" id="r1c10">
-        <input type="text" maxlength="1" id="r1c11">
-        <input type="text" maxlength="1" id="r1c12">
+        <input type="text" maxlength="1" id="r1c5" onkeyup="check_data_bus()" onkeyup="check_dma()">
+        <input type="text" maxlength="1" id="r1c6" onkeyup="check_data_bus()">
+        <input type="text" maxlength="1" id="r1c7" onkeyup="check_data_bus()">
+        <input type="text" maxlength="1" id="r1c8" onkeyup="check_data_bus()" onkeyup="check_adress_bus()">
+        <span>/</span>
+        <input type="text" maxlength="1" id="r1c10" onkeyup="check_data_bus()">
+        <input type="text" maxlength="1" id="r1c11" onkeyup="check_data_bus()">
+        <input type="text" maxlength="1" id="r1c12" onkeyup="check_data_bus()">
     </div>
     <div class="r2">
         <input type="text" maxlength="1" id="r2c1" onkeyup="check_cpu()">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r2c3">
-        <input type="text" maxlength="1" id="r2c4">
-        <input type="text" maxlength="1" id="r2c5">
+        <input type="text" maxlength="1" id="r2c3" onkeyup="check_ram()" onkeyup="check_rom()">
+        <input type="text" maxlength="1" id="r2c4" onkeyup="check_rom()">
+        <input type="text" maxlength="1" id="r2c5" onkeyup="check_rom()" onkeyup="check_dma()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r2c8">
+        <input type="text" maxlength="1" id="r2c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
@@ -43,14 +43,14 @@
         <input type="text" maxlength="1" id="r2c18">
     </div>
     <div class="r3">
-        <input type="text" maxlength="1" id="r3c1" onkeyup="check_cpu()">
-        <input type="text" maxlength="1" id="r3c2">
-        <input type="text" maxlength="1" id="r3c3">
+        <input type="text" maxlength="1" id="r3c1" onkeyup="check_cpu()" onkeyup="check_ula()">
+        <input type="text" maxlength="1" id="r3c2" onkeyup="check_ula()">
+        <input type="text" maxlength="1" id="r3c3" onkeyup="check_ram()" onkeyup="check_ula()">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r3c5">
+        <input type="text" maxlength="1" id="r3c5" onkeyup="check_dma()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r3c8">
+        <input type="text" maxlength="1" id="r3c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
@@ -65,12 +65,12 @@
     <div class="r4">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r4c3">
+        <input type="text" maxlength="1" id="r4c3" onkeyup="check_ram()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r4c8">
+        <input type="text" maxlength="1" id="r4c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" id="r4c9">
         <input type="text" maxlength="1" id="r4c10">
         <input type="text" maxlength="1" id="r4c11">
@@ -90,7 +90,7 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r5c8">
+        <input type="text" maxlength="1" id="r5c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
@@ -110,7 +110,7 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r6c8">
+        <input type="text" maxlength="1" id="r6c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
@@ -130,7 +130,7 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r7c8">
+        <span>/</span>
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
@@ -150,7 +150,7 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r8c8">
+        <input type="text" maxlength="1" id="r8c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
@@ -170,7 +170,7 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r9c8">
+        <input type="text" maxlength="1" id="r9c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
@@ -202,7 +202,7 @@
         <input type="text" maxlength="1" id="r10c5">
         <input type="text" maxlength="1" id="r10c6">
         <input type="text" maxlength="1" id="r10c7">
-        <input type="text" maxlength="1" id="r10c8">
+        <input type="text" maxlength="1" id="r10c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" id="r10c9">
         <input type="text" maxlength="1" id="r10c10">
         <input type="text" maxlength="1" id="r10c11">

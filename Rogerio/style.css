@@ -12,8 +12,20 @@ input{
     border: 1px solid black;
 }
 
+span{
+
+    margin-left: 1rem;
+    margin-right: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
 .r1{
     display: flex;
+    margin-left: 15%;
+    margin-top: 20vh;
 }
 
 .r1 .ghost{
@@ -22,6 +34,7 @@ input{
 
 .r2{
     display: flex;
+    margin-left: 15%;
 }
 
 .r2 .ghost{
@@ -30,6 +43,7 @@ input{
 
 .r3{
     display: flex;
+    margin-left: 15%;
 }
 
 .r3 .ghost{
@@ -38,6 +52,7 @@ input{
 
 .r4{
     display: flex;
+    margin-left: 15%;
 }
 
 .r4 .ghost{
@@ -46,6 +61,7 @@ input{
 
 .r5{
     display: flex;
+    margin-left: 15%;
 }
 
 .r5 .ghost{
@@ -54,6 +70,7 @@ input{
 
 .r6{
     display: flex;
+    margin-left: 15%;
 }
 
 .r6 .ghost{
@@ -62,6 +79,7 @@ input{
 
 .r7{
     display: flex;
+    margin-left: 15%;
 }
 
 .r7 .ghost{
@@ -70,6 +88,7 @@ input{
 
 .r8{
     display: flex;
+    margin-left: 15%;
 }
 
 .r8 .ghost{
@@ -78,6 +97,7 @@ input{
 
 .r9{
     display: flex;
+    margin-left: 15%;
 }
 
 .r9 .ghost{
@@ -86,6 +106,7 @@ input{
 
 .r10{
     display: flex;
+    margin-left: 15%;
 }
 
 .r10 .ghost{
