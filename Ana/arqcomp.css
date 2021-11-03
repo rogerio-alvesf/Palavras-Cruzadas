@@ -35,6 +35,7 @@ button {
 span {
   text-align: center;
   padding: 10px;
+  font-weight: 600;
 }
 
 .h3 {
@@ -78,6 +79,8 @@ span {
 #ordem_1 {
   grid-area: ordem1;
 }
+
+
 
 #ordem_2 {
   grid-area: ordem2;
