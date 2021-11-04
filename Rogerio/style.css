@@ -13,13 +13,46 @@ input{
 }
 
 span{
-
     margin-left: 1rem;
     margin-right: 0.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+    box-shadow: 3px 3px 3px darkslategrey;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.number{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    margin-right: 0.2%;
 }
 
 .r1{
