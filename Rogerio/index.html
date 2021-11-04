@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="r1">
-        <input type="text" maxlength="1" id="r1c1" onkeyup="check_cpu()" onkeyup="check_cs()">
-        <input type="text" maxlength="1" id="r1c2" onkeyup="check_cs()">
+        <input type="text" maxlength="1" id="r1c1" onkeyup="check_cpu()">
+        <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" id="r1c5" onkeyup="check_data_bus()" onkeyup="check_dma()">
@@ -40,7 +40,7 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r2c18">
+        <input type="text" maxlength="1" id="r2c18" onkeyup="check_quad_core()">
     </div>
     <div class="r3">
         <input type="text" maxlength="1" id="r3c1" onkeyup="check_cpu()" onkeyup="check_ula()">
@@ -60,7 +60,7 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r3c18">
+        <input type="text" maxlength="1" id="r3c18" onkeyup="check_quad_core()">
     </div>
     <div class="r4">
         <input type="text" maxlength="1" class="ghost">
@@ -70,17 +70,17 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r4c8" onkeyup="check_adress_bus()">
-        <input type="text" maxlength="1" id="r4c9">
-        <input type="text" maxlength="1" id="r4c10">
-        <input type="text" maxlength="1" id="r4c11">
-        <input type="text" maxlength="1" id="r4c12">
+        <input type="text" maxlength="1" id="r4c8" onkeyup="check_adress_bus()" onkeyup="check_eprom()">
+        <input type="text" maxlength="1" id="r4c9" onkeyup="check_eprom()">
+        <input type="text" maxlength="1" id="r4c10" onkeyup="check_eprom()">
+        <input type="text" maxlength="1" id="r4c11" onkeyup="check_eprom()">
+        <input type="text" maxlength="1" id="r4c12" onkeyup="check_eprom()" onkeyup="check_memoria()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r4c18">
+        <input type="text" maxlength="1" id="r4c18" onkeyup="check_quad_core()">
     </div>
     <div class="r5">
         <input type="text" maxlength="1" class="ghost">
@@ -94,33 +94,33 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r5c12">
+        <input type="text" maxlength="1" id="r5c12" onkeyup="check_memoria()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r5c18">
+        <input type="text" maxlength="1" id="r5c18" onkeyup="check_quad_core()">
     </div>
     <div class="r6">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r6c5" onkeyup="check_flash()">
+        <input type="text" maxlength="1" id="r6c6" onkeyup="check_flash()">
+        <input type="text" maxlength="1" id="r6c7" onkeyup="check_flash()">
+        <input type="text" maxlength="1" id="r6c8" onkeyup="check_adress_bus()" onkeyup="check_flash()">
+        <input type="text" maxlength="1" id="r6c9" onkeyup="check_flash()">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r6c12" onkeyup="check_memoria()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r6c8" onkeyup="check_adress_bus()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r6c12">
-        <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r6c18">
+        <span>/</span>
     </div>
     <div class="r7">
         <input type="text" maxlength="1" class="ghost">
@@ -134,13 +134,14 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r7c12">
+        <input type="text" maxlength="1" id="r7c12" onkeyup="check_memoria()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r7c18">
+        <input type="text" maxlength="1" id="r7c18" onkeyup="check_quad_core()" onkeyup="check_cs()">
+        <input type="text" maxlength="1" id="r7c19" onkeyup="check_cs()">
     </div>
     <div class="r8">
         <input type="text" maxlength="1" class="ghost">
@@ -154,13 +155,13 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r8c12">
+        <input type="text" maxlength="1" id="r8c12" onkeyup="check_memoria()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r8c18">
+        <input type="text" maxlength="1" id="r8c18" onkeyup="check_quad_core()">
     </div>
     <div class="r9">
         <input type="text" maxlength="1" class="ghost">
@@ -174,48 +175,191 @@
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r9c12">
-        <input type="text" maxlength="1" id="r9c13">
+        <input type="text" maxlength="1" id="r9c12" onkeyup="check_memoria()" onkeyup="check_i5()">
+        <input type="text" maxlength="1" id="r9c13" onkeyup="check_i5()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r9c18">
-        <input type="text" maxlength="1" id="r9c19">
-        <input type="text" maxlength="1" id="r9c20">
-        <input type="text" maxlength="1" id="r9c21">
-        <input type="text" maxlength="1" id="r9c22">
-        <input type="text" maxlength="1" id="r9c23">
-        <input type="text" maxlength="1" id="r9c24">
-        <input type="text" maxlength="1" id="r9c25">
-        <input type="text" maxlength="1" id="r9c26">
-        <input type="text" maxlength="1" id="r9c27">
-        <input type="text" maxlength="1" id="r9c28">
-        <input type="text" maxlength="1" id="r9c29">
-        <input type="text" maxlength="1" id="r9c30">
+        <input type="text" maxlength="1" id="r9c18" onkeyup="check_quad_core()">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
     </div>
     <div class="r10">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r10c5">
-        <input type="text" maxlength="1" id="r10c6">
-        <input type="text" maxlength="1" id="r10c7">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" id="r10c8" onkeyup="check_adress_bus()">
-        <input type="text" maxlength="1" id="r10c9">
-        <input type="text" maxlength="1" id="r10c10">
-        <input type="text" maxlength="1" id="r10c11">
-        <input type="text" maxlength="1" id="r10c12">
-        <input type="text" maxlength="1" id="r10c13">
-        <input type="text" maxlength="1" id="r10c14">
-        <input type="text" maxlength="1" id="r10c15">
-        <input type="text" maxlength="1" id="r10c16">
-        <input type="text" maxlength="1" id="r10c17">
-        <input type="text" maxlength="1" id="r10c18">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r10c10" onkeyup="check_dual_core()">
+        <input type="text" maxlength="1" id="r10c11" onkeyup="check_dual_core()">
+        <input type="text" maxlength="1" id="r10c12" onkeyup="check_memoria()" onkeyup="check_dual_core()">
+        <input type="text" maxlength="1" id="r10c13" onkeyup="check_dual_core()">
+        <span>/</span>
+        <input type="text" maxlength="1" id="r10c15" onkeyup="check_dual_core()">
+        <input type="text" maxlength="1" id="r10c16" onkeyup="check_dual_core()">
+        <input type="text" maxlength="1" id="r10c17" onkeyup="check_dual_core()">
+        <input type="text" maxlength="1" id="r10c18" onkeyup="check_dual_core()" onkeyup="check_quad_core()">
         <input type="text" maxlength="1" class="ghost">
         <input type="text" maxlength="1" class="ghost">
-        <input type="text" maxlength="1" id="r10c21">
+        <input type="text" maxlength="1" class="ghost">
+    </div>
+    <div class="r11">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <span>/</span>
+    </div>
+
+    <div class="r12">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" class="ghost">
+        <input type="text" maxlength="1" id="r12c12">
+    </div>
+
+    <div class="r13">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1"class="ghost">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c11">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c12">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c13">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c14">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c15">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c16">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c17">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c18">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c19">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c20">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c21">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c22">
+        <input type="text" maxlength="1" onkeyup="check_registradores()" id="r13c23">
+    </div>
+
+    <div class="r14">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <span>/</span>
+    </div>
+
+    <div class="r15">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" type="text" id="r15c12">
+    </div>
+    <div class="r16">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" type="text" id="r16c12">
+    </div>
+    <div class="r17">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" type="text" id="r17c12">
+    </div>
+
+    <div class="r18">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" type="text" id="r18c12">
+    </div>
+
+    <div class="r19">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" class="ghost">
+        <input maxlength="1" type="text" id="r19c12">
     </div>
 </body>
 <script src="script.js"></script>

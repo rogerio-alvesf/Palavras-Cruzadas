@@ -25,7 +25,7 @@ span{
 .r1{
     display: flex;
     margin-left: 15%;
-    margin-top: 20vh;
+    margin-top: 5vh;
 }
 
 .r1 .ghost{
@@ -110,5 +110,86 @@ span{
 }
 
 .r10 .ghost{
+    visibility: hidden;
+}
+
+.r11{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r11 .ghost{
+    visibility: hidden;
+}
+
+.r12{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r12 .ghost{
+    visibility: hidden;
+}
+
+.r13{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r13 .ghost{
+    visibility: hidden;
+}
+
+.r14{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r14 .ghost{
+    visibility: hidden;
+}
+
+.r15{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r15 .ghost{
+    visibility: hidden;
+}
+
+.r16{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r16 .ghost{
+    visibility: hidden;
+}
+
+.r17{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r17 .ghost{
+    visibility: hidden;
+}
+
+.r18{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r18 .ghost{
+    visibility: hidden;
+}
+
+.r19{
+    display: flex;
+    margin-left: 15%;
+}
+
+.r19 .ghost{
     visibility: hidden;
 }
