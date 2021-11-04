@@ -8,186 +8,223 @@
     <link rel="stylesheet" href="arqcomp.css" />
   </head>
   <body>
-    <section id="start">
-      <button>Start</button>
+    <!-- <section id="start">
+      
     </section>
 
     <section>
       <h3>Bem vindo ao nosso caça palavras!</h3>
-      
+      <button id="everybodydance"><span>PARTY!</span></button>
 
-      <section class="grid grid-template-areas">
+      <section class="grid grid-template-areas"> -->
+        <span class="tooltip" id="ordem_1"
+        >1
+        <span class="tooltiptext">É o nome de uma linha de controle em eletrônica digital usada para selecionar um ou um conjunto de circuitos integrados </span>
+        </span> 
+        <span class="tooltip" id="ordem_2"
+        >2
+        <span class="tooltiptext">É a unidade central do processador, que executa as operações aritméticas e lógicas referenciadas pelos opcodes.</span>
 
-        <span id="ordem_1">1</span>
-      <span id="ordem_2">2</span>
-      <span id="ordem_3">3</span>
-      <span id="ordem_4">4</span>
-      <span id="ordem_5">5</span>
-      <span id="ordem_6">6</span>
-      <span id="ordem_7">7</span>
-      <span id="ordem_8">8</span>
-      <span id="ordem_9">9</span>
-      <span id="ordem_10">10</span>
-      <span id="ordem_11">11</span>
-      <span id="ordem_12">12</span>
-      <span id="ordem_13">13</span>
-      <span id="ordem_14">14</span>
-      <span id="ordem_15">15</span>
-      <span id="ordem_16">16</span>
+        </span>
+        <span class="tooltip" id="ordem_3"
+          >3
+          <span class="tooltiptext">É um tipo de memória que permite apenas a leitura, ou seja, as suas informações são gravadas pelo fabricante uma única vez e após isso não podem ser alteradas ou apagadas, somente acessadas.</span>
+        </span>
+        <span class="tooltip" id="ordem_4"
+          >4<span class="tooltiptext">Permite que o dispositivo de rede mova os dados do pacote diretamente para a memória do sistema, reduzindo a utilização da CPU.</span>
+        </span>
+        <span class="tooltip" id="ordem_5"
+          >5<span class="tooltiptext">É uma memória não-volátil, utilizada no HD e se diferencia das demais por sua capacidade de apagar as informações em blocos e não por byte.</span>
+        </span>
+        <span class="tooltip" id="ordem_6"
+          >6<span class="tooltiptext">Por onde envia os dados e informações.</span>
+        </span>
+        <span class="tooltip" id="ordem_7"
+          >7<span class="tooltiptext"> Ele é capaz de lidar com tarefas diferentes para deixar a máquina mais rápida, na hora de executar ações com quatro núcleos, resultando em uma potência maior.</span>
+        </span>
+        <span class="tooltip" id="ordem_8"
+          >8<span class="tooltiptext">corresponde a uma memória local rápida do microprocessador,
+            destinada ao armazenamento de dados e instruções</span>
+        </span>
+        <span class="tooltip" id="ordem_9"
+          >9<span class="tooltiptext"> Ele é capaz de lidar com tarefas diferentes para deixar a máquina mais rápida, na hora de executar ações com dois núcleos.</span>
+        </span>
+        <span class="tooltip" id="ordem_10"
+          >10<span class="tooltiptext">Permite o acesso ao endereço da informação.</span>
+        </span>
+        <span class="tooltip" id="ordem_11"
+          >11<span class="tooltiptext">Foram desenvolvidos tanto para consumidores domésticos que buscam alto desempenho, quanto para profissionais que rodam programas CAD e editores de vídeo. Mínimo de quatro núcleos até dez “cores”. E recursos como o Turbo Boost e Hyper Threading.</span>
+        </span>
+        <span class="tooltip" id="ordem_12"
+          >12<span class="tooltiptext"> Conta com quatro núcleos e conta com recursos como o Turbo Boost, que aumenta a frequência de operação dos núcleos. Além disso, esses processadores tendem a ser mais rápidos e até figuram em linhas especiais, voltadas a entusiastas e gamers. Na</span>
+        </span>
+        <span class="tooltip" id="ordem_13"
+          >13<span class="tooltiptext"> É responsável por implementar as operações lógicas
+           e aritméticas. Em geral, o resultado de uma operação é armazenado no
+            acumulador. 
+            </span>
+        </span>
+        <span class="tooltip" id="ordem_14"
+          >14<span class="tooltiptext">Memória programável apagável somente de leitura, É um tipo de chip de memória de computador que mantém seus dados quando a energia é desligada, não volátil.</span>
+        </span>
+        <span class="tooltip" id="ordem_15"
+          >15<span class="tooltiptext">Tem como função armazenar grandes quantidades de informações. Os dados não são perdidos quando desligamos o equipamento</span>
+        </span>
+        <span class="tooltip" id="ordem_16"
+          >16<span class="tooltiptext"> Memória de acesso aleatório,  responsável pelo armazenamento de informações necessárias para a execução de aplicativos em uso e para o funcionamento do próprio sistema operacional</span>
+        </span>
+
+        
 
         <!-- RAM -->
-          <input onkeyup="word_ram()" maxlength="1" id="r_ram" />
-          <input onkeyup="word_ram()" maxlength="1" id="a_ram" />
-          <input onkeyup="word_ram()" maxlength="1" id="m_ram" />
+        <!-- <input onkeyup="word_ram()" maxlength="1" id="r_ram" />
+        <input onkeyup="word_ram()" maxlength="1" id="a_ram" />
+        <input onkeyup="word_ram()" maxlength="1" id="m_ram" /> -->
         <!-- CPU -->
-          <input onkeyup="word_cpu()" maxlength="1" id="c_cpu" />
-          <input onkeyup="word_cpu()" maxlength="1" id="p_cpu" />
-          <input onkeyup="word_cpu()" maxlength="1" id="u_cpu" />
+        <!-- <input onkeyup="word_cpu()" maxlength="1" id="c_cpu" />
+        <input onkeyup="word_cpu()" maxlength="1" id="p_cpu" />
+        <input onkeyup="word_cpu()" maxlength="1" id="u_cpu" /> -->
         <!-- ROM -->
-          <input onkeyup="word_rom()" maxlength="1" id="o_rom" />
+        <!-- <input onkeyup="word_rom()" maxlength="1" id="o_rom" /> -->
         <!-- CS -->
-          <input onkeyup="word_cs()" maxlength="1" id="s_cs" />
+        <!-- <input onkeyup="word_cs()" maxlength="1" id="s_cs" /> -->
         <!-- ULA -->
-          <input onkeyup="word_ula()" maxlength="1" id="l_ula" />
+        <!-- <input onkeyup="word_ula()" maxlength="1" id="l_ula" /> -->
         <!-- REGISTRADORES -->
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="r_registradores"
-          />
+        <!--  <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="r_registradores"
+        />
 
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="g_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="i_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="s_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="t_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="r3_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="a_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="d_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="o_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="r2_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="e_registradores"
-          />
-          <input
-            onkeyup="word_registradores()"
-            maxlength="1"
-            id="s2_registradores"
-          />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="g_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="i_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="s_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="t_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="r3_registradores"
+        />
+       <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="a_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="d_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="o_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="r2_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="e_registradores"
+        />
+        <input
+          onkeyup="word_registradores()"
+          maxlength="1"
+          id="s2_registradores"
+        /> -->
         <!-- EPROM -->
-          <input onkeyup="word_eprom()" maxlength="1" id="p_eprom" />
-          <input onkeyup="word_eprom()" maxlength="1" id="r_eprom" />
-          <input onkeyup="word_eprom()" maxlength="1" id="o_eprom" />
-          <input onkeyup="word_eprom()" maxlength="1" id="m_eprom" />
+        <!-- <input onkeyup="word_eprom()" maxlength="1" id="p_eprom" />
+        <input onkeyup="word_eprom()" maxlength="1" id="r_eprom" />
+        <input onkeyup="word_eprom()" maxlength="1" id="o_eprom" />
+        <input onkeyup="word_eprom()" maxlength="1" id="m_eprom" /> -->
         <!-- FLASH -->
-          <input onkeyup="word_flash()" maxlength="1" id="f_flash" />
-          <input onkeyup="word_flash()" maxlength="1" id="l_flash" />
-          <input onkeyup="word_flash()" maxlength="1" id="a_flash" />
-          <input onkeyup="word_flash()" maxlength="1" id="h_flash" />
+        <!-- <input onkeyup="word_flash()" maxlength="1" id="f_flash" />
+        <input onkeyup="word_flash()" maxlength="1" id="l_flash" />
+        <input onkeyup="word_flash()" maxlength="1" id="a_flash" />
+        <input onkeyup="word_flash()" maxlength="1" id="h_flash" /> -->
         <!-- DMA -->
-          <input onkeyup="word_dma()" maxlength="1" id="d_dma" />
-          <input onkeyup="word_dma()" maxlength="1" id="m_dma" />
-          <input onkeyup="word_dma()" maxlength="1" id="a_dma" />
+        <!-- <input onkeyup="word_dma()" maxlength="1" id="d_dma" />
+        <input onkeyup="word_dma()" maxlength="1" id="m_dma" />
+        <input onkeyup="word_dma()" maxlength="1" id="a_dma" /> -->
         <!-- MEMORIA -->
-          <input onkeyup="word_memoria()" maxlength="1" id="e_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="m_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="o_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="r_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="i_memoria" />
-          <span id="space_memoria">/</span>
+        <!-- <input onkeyup="word_memoria()" maxlength="1" id="e_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="m_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="o_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="r_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="i_memoria" />
+        <span id="space_memoria">/</span> -->
 
-            
-          
-          <input onkeyup="word_memoria()" maxlength="1" id="d_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="e2_memoria" />
-          <span id="space2_memoria">
-            /
-          </span>
-          <input onkeyup="word_memoria()" maxlength="1" id="m2_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="a2_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="s_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="s2_memoria" />
-          <input onkeyup="word_memoria()" maxlength="1" id="a3_memoria" />
+        <!-- <input onkeyup="word_memoria()" maxlength="1" id="d_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="e2_memoria" />
+        <span id="space2_memoria"> / </span>
+        <input onkeyup="word_memoria()" maxlength="1" id="m2_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="a2_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="s_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="s2_memoria" />
+        <input onkeyup="word_memoria()" maxlength="1" id="a3_memoria" /> -->
         <!-- ADRESS -->
-          <input onkeyup="word_adress()" maxlength="1" id="d_adress" />
-          <input onkeyup="word_adress()" maxlength="1" id="r_adress" />
-          <input onkeyup="word_adress()" maxlength="1" id="e_adress" />
-          <input onkeyup="word_adress()" maxlength="1" id="s1_adress" />
-          <input onkeyup="word_adress()" maxlength="1" id="s2_adress" />
-          <span id="space_adress">/</span>
-          <input onkeyup="word_adress()" maxlength="1" id="b_adress" />
-          <input onkeyup="word_adress()" maxlength="1" id="u_adress" />
-          <input onkeyup="word_adress()" maxlength="1" id="s_adress" />
+        <!-- <input onkeyup="word_adress()" maxlength="1" id="d_adress" />
+        <input onkeyup="word_adress()" maxlength="1" id="r_adress" />
+        <input onkeyup="word_adress()" maxlength="1" id="e_adress" />
+        <input onkeyup="word_adress()" maxlength="1" id="s1_adress" />
+        <input onkeyup="word_adress()" maxlength="1" id="s2_adress" />
+        <span id="space_adress">/</span>
+        <input onkeyup="word_adress()" maxlength="1" id="b_adress" />
+        <input onkeyup="word_adress()" maxlength="1" id="u_adress" />
+        <input onkeyup="word_adress()" maxlength="1" id="s_adress" /> -->
         <!-- DATA -->
-          <input onkeyup="word_data()" maxlength="1" id="a_data" />
-          <input onkeyup="word_data()" maxlength="1" id="t_data" />
-          <input onkeyup="word_data()" maxlength="1" id="a2_data" />
-          <span id="space_data">/</span>; 
-          <input onkeyup="word_data()" maxlength="1" id="b_data" />
-          <input onkeyup="word_data()" maxlength="1" id="u_data" />
-          <input onkeyup="word_data()" maxlength="1" id="s_data" />
+        <!-- <input onkeyup="word_data()" maxlength="1" id="a_data" />
+        <input onkeyup="word_data()" maxlength="1" id="t_data" />
+        <input onkeyup="word_data()" maxlength="1" id="a2_data" />
+        <span id="space_data">/</span>;
+        <input onkeyup="word_data()" maxlength="1" id="b_data" />
+        <input onkeyup="word_data()" maxlength="1" id="u_data" />
+        <input onkeyup="word_data()" maxlength="1" id="s_data" /> -->
         <!-- I5 -->
-          <input onkeyup="word_i5()" maxlength="1" id="i5" />
+        <!-- <input onkeyup="word_i5()" maxlength="1" id="i5" /> -->
         <!-- I7 -->
-          <input onkeyup="word_i7()" maxlength="1" id="i7" />
+        <!-- <input onkeyup="word_i7()" maxlength="1" id="i7" /> -->
         <!-- DUAL-->
-          <input onkeyup="word_dual()" maxlength="1" id="d_dual" />
-          <input onkeyup="word_dual()" maxlength="1" id="u_dual" />
-          <input onkeyup="word_dual()" maxlength="1" id="a_dual" />
-          <input onkeyup="word_dual()" maxlength="1" id="l_dual" />
-          <span id="space_dual">/</span>
-          <input onkeyup="word_dual()" maxlength="1" id="c_dual" />
-          <input onkeyup="word_dual()" maxlength="1" id="o_dual" />
-          <input onkeyup="word_dual()" maxlength="1" id="r_dual" />
-          <input onkeyup="word_dual()" maxlength="1" id="e_dual" />
+        <!-- <input onkeyup="word_dual()" maxlength="1" id="d_dual" />
+        <input onkeyup="word_dual()" maxlength="1" id="u_dual" />
+        <input onkeyup="word_dual()" maxlength="1" id="a_dual" />
+        <input onkeyup="word_dual()" maxlength="1" id="l_dual" />
+        <span id="space_dual">/</span>
+        <input onkeyup="word_dual()" maxlength="1" id="c_dual" />
+        <input onkeyup="word_dual()" maxlength="1" id="o_dual" />
+        <input onkeyup="word_dual()" maxlength="1" id="r_dual" />
+        <input onkeyup="word_dual()" maxlength="1" id="e_dual" /> -->
         <!-- QUAD -->
-          <input onkeyup="word_quad()" maxlength="1" id="q_quad" />
-          <input onkeyup="word_quad()" maxlength="1" id="u_quad" />
-          <input onkeyup="word_quad()" maxlength="1" id="a_quad" />
-          <input onkeyup="word_quad()" maxlength="1" id="d_quad" />
-          <span id="space_quad">/</span>
-          <input onkeyup="word_quad()" maxlength="1" id="c_quad" />
-          <input onkeyup="word_quad()" maxlength="1" id="o_quad" />
-          <input onkeyup="word_quad()" maxlength="1" id="r_quad" />
+        <!-- <input onkeyup="word_quad()" maxlength="1" id="q_quad" />
+        <input onkeyup="word_quad()" maxlength="1" id="u_quad" />
+        <input onkeyup="word_quad()" maxlength="1" id="a_quad" />
+        <input onkeyup="word_quad()" maxlength="1" id="d_quad" />
+        <span id="space_quad">/</span>
+        <input onkeyup="word_quad()" maxlength="1" id="c_quad" />
+        <input onkeyup="word_quad()" maxlength="1" id="o_quad" />
+        <input onkeyup="word_quad()" maxlength="1" id="r_quad" />
       </section>
     </section>
-    <script src="arqcomp.js"></script>
+    <script src="arqcomp.js"></script> -->
   </body>
 </html>
