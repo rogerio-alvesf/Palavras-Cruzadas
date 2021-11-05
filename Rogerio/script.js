@@ -1,3 +1,9 @@
+function hidden_button(){
+    id_section.style.visibility = "visible";
+    button_start.style.display = "none";
+}
+
+
 function check_cpu() {
     var letter_r1c1 = r1c1.value;
     var letter_r2c1 = r2c1.value;
@@ -6,10 +12,6 @@ function check_cpu() {
         r1c1.style.backgroundColor = "green";
         r2c1.style.backgroundColor = "green";
         r3c1.style.backgroundColor = "green";
-    }else{
-        r1c1.style.backgroundColor = "white";
-        r2c1.style.backgroundColor = "white";
-        r3c1.style.backgroundColor = "white";
     }
 }
 
@@ -19,9 +21,6 @@ function check_cs(){
     if (letter_r7c18.toLowerCase() == "c" & letter_r7c19.toLowerCase() == "s") {
         r7c18.style.backgroundColor = "green";
         r7c19.style.backgroundColor = "green";
-    }else{
-        r7c18.style.backgroundColor = "white";
-        r7c19.style.backgroundColor = "white";
     }
 }
 
@@ -33,10 +32,6 @@ function check_ula(){
         r3c1.style.backgroundColor = "green";
         r3c2.style.backgroundColor = "green";
         r3c3.style.backgroundColor = "green";
-    }else{
-        r3c1.style.backgroundColor = "white";
-        r3c2.style.backgroundColor = "white";
-        r3c3.style.backgroundColor = "white";
     }
 }
 
@@ -48,10 +43,6 @@ function check_ram(){
         r2c3.style.backgroundColor = "green";
         r3c3.style.backgroundColor = "green";
         r4c3.style.backgroundColor = "green";
-    }else{
-        r2c3.style.backgroundColor = "white";
-        r3c3.style.backgroundColor = "white";
-        r4c3.style.backgroundColor = "white";
     }
 }
 
@@ -63,10 +54,6 @@ function check_rom(){
         r2c3.style.backgroundColor = "green";
         r2c4.style.backgroundColor = "green";
         r2c5.style.backgroundColor = "green";
-    }else{
-        r2c3.style.backgroundColor = "white";
-        r2c4.style.backgroundColor = "white";
-        r2c5.style.backgroundColor = "white";
     }
 }
 
@@ -78,10 +65,6 @@ function check_dma(){
         r1c5.style.backgroundColor = "green";
         r2c5.style.backgroundColor = "green";
         r3c5.style.backgroundColor = "green";
-    }else{
-        r1c5.style.backgroundColor = "white";
-        r2c5.style.backgroundColor = "white";
-        r3c5.style.backgroundColor = "white";
     }
 }
 
@@ -101,14 +84,6 @@ function check_data_bus(){
         r1c10.style.backgroundColor = "green";
         r1c11.style.backgroundColor = "green";
         r1c12.style.backgroundColor = "green";
-    }else{
-        r1c5.style.backgroundColor = "white";
-        r1c6.style.backgroundColor = "white";
-        r1c7.style.backgroundColor = "white";
-        r1c8.style.backgroundColor = "white"; 
-        r1c10.style.backgroundColor = "white";
-        r1c11.style.backgroundColor = "white";
-        r1c12.style.backgroundColor = "white";
     }
 }
 
@@ -132,16 +107,6 @@ function check_adress_bus(){
         r8c8.style.backgroundColor = "green";
         r9c8.style.backgroundColor = "green";
         r10c8.style.backgroundColor = "green";
-    }else{
-        r1c8.style.backgroundColor = "white";
-        r2c8.style.backgroundColor = "white";
-        r3c8.style.backgroundColor = "white";
-        r4c8.style.backgroundColor = "white";
-        r5c8.style.backgroundColor = "white";
-        r6c8.style.backgroundColor = "white";
-        r8c8.style.backgroundColor = "white";
-        r9c8.style.backgroundColor = "white";
-        r10c8.style.backgroundColor = "white";
     }
 }
 
@@ -157,12 +122,6 @@ function check_eprom(){
         r4c10.style.backgroundColor = "green";
         r4c11.style.backgroundColor = "green";
         r4c12.style.backgroundColor = "green";
-    }else{
-        r4c8.style.backgroundColor = "white";
-        r4c9.style.backgroundColor = "white";
-        r4c10.style.backgroundColor = "white";
-        r4c11.style.backgroundColor = "white";
-        r4c12.style.backgroundColor = "white";
     }
 }
 
@@ -196,21 +155,6 @@ function check_memoria(){
         r17c12.style.backgroundColor = "green";
         r18c12.style.backgroundColor = "green";
         r19c12.style.backgroundColor = "green";
-    }else{
-        r4c12.style.backgroundColor = "white";
-        r5c12.style.backgroundColor = "white";
-        r6c12.style.backgroundColor = "white";
-        r7c12.style.backgroundColor = "white";
-        r8c12.style.backgroundColor = "white";
-        r9c12.style.backgroundColor = "white";
-        r10c12.style.backgroundColor = "white";
-        r12c12.style.backgroundColor = "white";
-        r13c12.style.backgroundColor = "white";
-        r15c12.style.backgroundColor = "white";
-        r16c12.style.backgroundColor = "white";
-        r17c12.style.backgroundColor = "white";
-        r18c12.style.backgroundColor = "white";
-        r19c12.style.backgroundColor = "white";
     }
 }
 
@@ -226,12 +170,6 @@ function check_flash(){
         r6c7.style.backgroundColor = "green";
         r6c8.style.backgroundColor = "green";
         r6c9.style.backgroundColor = "green";
-    }else{
-        r6c5.style.backgroundColor = "white";
-        r6c6.style.backgroundColor = "white";
-        r6c7.style.backgroundColor = "white";
-        r6c8.style.backgroundColor = "white";
-        r6c9.style.backgroundColor = "white";
     }
 }
 
@@ -241,9 +179,6 @@ function check_i5(){
     if(letter_r9c12.toLowerCase() == "i" & letter_r9c13 == "5"){
         r9c12.style.backgroundColor = "green";
         r9c13.style.backgroundColor = "green";
-    }else{
-        r9c12.style.backgroundColor = "white";
-        r9c13.style.backgroundColor = "white";
     }
 }
 
@@ -265,15 +200,6 @@ function check_dual_core(){
         r10c16.style.backgroundColor = "green";
         r10c17.style.backgroundColor = "green";
         r10c18.style.backgroundColor = "green";
-    }else{
-        r10c10.style.backgroundColor = "white";
-        r10c11.style.backgroundColor = "white";
-        r10c12.style.backgroundColor = "white";
-        r10c13.style.backgroundColor = "white";
-        r10c15.style.backgroundColor = "white";
-        r10c16.style.backgroundColor = "white";
-        r10c17.style.backgroundColor = "white";
-        r10c18.style.backgroundColor = "white";
     }
 }
 
@@ -305,20 +231,6 @@ function check_registradores(){
         r13c21.style.backgroundColor = "green";
         r13c22.style.backgroundColor = "green";
         r13c23.style.backgroundColor = "green";
-    }else{
-        r13c11.style.backgroundColor = "white";
-        r13c12.style.backgroundColor = "white";
-        r13c13.style.backgroundColor = "white";
-        r13c14.style.backgroundColor = "white";
-        r13c15.style.backgroundColor = "white";
-        r13c16.style.backgroundColor = "white";
-        r13c17.style.backgroundColor = "white";
-        r13c18.style.backgroundColor = "white";
-        r13c19.style.backgroundColor = "white";
-        r13c20.style.backgroundColor = "white";
-        r13c21.style.backgroundColor = "white";
-        r13c22.style.backgroundColor = "white";
-        r13c23.style.backgroundColor = "white";
     }
 }
 
@@ -340,14 +252,5 @@ function check_quad_core(){
         r8c18.style.backgroundColor = "green";
         r9c18.style.backgroundColor = "green";
         r10c18.style.backgroundColor = "green";
-    }else{
-        r2c18.style.backgroundColor = "white";
-        r3c18.style.backgroundColor = "white";
-        r4c18.style.backgroundColor = "white";
-        r5c18.style.backgroundColor = "white";
-        r7c18.style.backgroundColor = "white";
-        r8c18.style.backgroundColor = "white";
-        r9c18.style.backgroundColor = "white";
-        r10c18.style.backgroundColor = "white";
     }
 }

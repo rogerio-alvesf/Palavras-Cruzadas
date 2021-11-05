@@ -25,6 +25,8 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .button-start button{
@@ -87,11 +89,13 @@ span {
   visibility: visible;
 }
 
- .h3 {
+ .welcome {
   margin-left: 30%;
+  display: none;
 }
 
 .grid {
+  visibility: hidden;
   display: grid;
   max-width: 90vw;
 }

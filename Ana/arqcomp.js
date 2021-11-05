@@ -1,3 +1,8 @@
+function hidden_button(){
+    button_start.style.display = "none";
+    grid_template_areas.style.visibility = "visible";
+}
+
 function check_cpu() {
     var letter_r1c1 = c_cpu.value;
     var letter_r2c1 = p_cpu.value;
