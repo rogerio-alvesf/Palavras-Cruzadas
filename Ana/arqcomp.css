@@ -56,10 +56,6 @@ input {
   font-weight: 600;
 }
 
-button {
-  display: none;
-}
-
 span {
   text-align: center;
   padding: 10px;
