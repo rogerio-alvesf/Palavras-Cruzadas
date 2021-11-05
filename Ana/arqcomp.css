@@ -37,7 +37,7 @@ span {
   padding: 10px;
   font-weight: 600;
 
-} */
+} 
 
 .tooltip {
   position: relative;
@@ -62,8 +62,6 @@ span {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-
-
 
  .h3 {
   margin-left: 30%;
