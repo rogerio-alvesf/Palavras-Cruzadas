@@ -150,7 +150,7 @@ function check_eprom(){
     var letter_r4c9 = p_eprom.value;
     var letter_r4c10 = r_eprom.value;
     var letter_r4c11 = o_eprom.value;
-    var letter_r4c12 = r4c12.value;
+    var letter_r4c12 = m_eprom.value;
     if(letter_r4c8.toLowerCase() == "e" & letter_r4c9.toLowerCase() == "p" & letter_r4c10.toLowerCase() == "r" & letter_r4c11.toLowerCase() == "o" & letter_r4c12.toLowerCase() == "m"){
         e_adress.style.backgroundColor = "green";
         p_eprom.style.backgroundColor = "green";
