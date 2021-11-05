@@ -1,4 +1,4 @@
-/* body {
+body {
   margin: 0;
   padding: 0;
   background-color: teal;
@@ -65,7 +65,7 @@ span {
 
 
 
-/* .h3 {
+ .h3 {
   margin-left: 30%;
 }
 
@@ -410,4 +410,4 @@ span {
 }
 #r_quad {
   grid-area: r4;
-} */
+} 

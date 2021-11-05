@@ -19,11 +19,7 @@
             referenciadas pelos opcodes.</span>
 
     </span>
-    <span class="tooltip" id="ordem_3">3
-        <span class="tooltiptext">É um tipo de memória que permite apenas a leitura, ou seja, as suas informações são
-            gravadas pelo fabricante uma única vez e após isso não podem ser alteradas ou apagadas, somente
-            acessadas.</span>
-    </span>
+   
     <span class="tooltip" id="ordem_4">4<span class="tooltiptext">Permite que o dispositivo de rede mova os dados do
             pacote diretamente para a memória do sistema, reduzindo a utilização da CPU.</span>
     </span>
@@ -84,7 +80,11 @@
     </div>
     <div class="r2">
         <input type="text" maxlength="1" id="r2c1" onkeyup="check_cpu()">
-        <input type="text" maxlength="1" class="ghost">
+        <span class="tooltip" id="ordem_3">3
+            <span class="tooltiptext">É um tipo de memória que permite apenas a leitura, ou seja, as suas informações são
+                gravadas pelo fabricante uma única vez e após isso não podem ser alteradas ou apagadas, somente
+                acessadas.</span>
+        </span>
         <input type="text" maxlength="1" id="r2c3" onkeyup="check_ram()" onkeyup="check_rom()">
         <input type="text" maxlength="1" id="r2c4" onkeyup="check_rom()">
         <input type="text" maxlength="1" id="r2c5" onkeyup="check_rom()" onkeyup="check_dma()">

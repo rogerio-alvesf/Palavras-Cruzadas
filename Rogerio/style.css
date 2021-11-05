@@ -10,15 +10,12 @@ input{
     background-color: #FFFFFF;
     cursor: pointer;
     border: 1px solid black;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
 }
-
-span{
-    margin-left: 1rem;
-    margin-right: 0.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
+span {
+    font-size: 1.5rem;;
 }
 
 .tooltip {
@@ -226,3 +223,38 @@ span{
 .r19 .ghost{
     visibility: hidden;
 }
+
+#ordem_1 {
+    float: right;
+    margin: 16% 53% 0 0
+}
+
+#ordem_2{
+float: left;
+margin: 2% 0 0 15.5%;
+}
+
+#ordem_3{
+    
+}
+
+#ordem_4
+
+#ordem_5
+
+#ordem_6
+
+#ordem_7
+
+#ordem_8
+
+#ordem_9
+
+#ordem_10
+#ordem_11
+#ordem_12
+#ordem_13
+#ordem_14
+#ordem_15
+
+#ordem_1
