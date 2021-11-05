@@ -11,10 +11,6 @@ function check_cpu() {
         c_cpu.style.backgroundColor = "green";
         p_cpu.style.backgroundColor = "green";
         u_cpu.style.backgroundColor = "green";
-    }else{
-        c_cpu.style.backgroundColor = "white";
-        p_cpu.style.backgroundColor = "white";
-        u_cpu.style.backgroundColor = "white";
     }
 }
 
@@ -24,9 +20,6 @@ function check_cs(){
     if (letter_r7c18.toLowerCase() == "c" & letter_r7c19.toLowerCase() == "s") {
         c_quad.style.backgroundColor = "green";
         s_cs.style.backgroundColor = "green";
-    }else{
-        c_quad.style.backgroundColor = "white";
-        s_cs.style.backgroundColor = "white";
     }
 }
 
@@ -38,10 +31,6 @@ function check_ula(){
         u_cpu.style.backgroundColor = "green";
         l_ula.style.backgroundColor = "green";
         a_ram.style.backgroundColor = "green";
-    }else{
-        u_cpu.style.backgroundColor = "white";
-        l_ula.style.backgroundColor = "white";
-        a_ram.style.backgroundColor = "white";
     }
 }
 
@@ -53,10 +42,6 @@ function check_ram(){
         r_ram.style.backgroundColor = "green";
         a_ram.style.backgroundColor = "green";
         m_ram.style.backgroundColor = "green";
-    }else{
-        r_ram.style.backgroundColor = "white";
-        a_ram.style.backgroundColor = "white";
-        m_ram.style.backgroundColor = "white";
     }
 }
 
@@ -68,10 +53,6 @@ function check_rom(){
         r_ram.style.backgroundColor = "green";
         o_rom.style.backgroundColor = "green";
         m_dma.style.backgroundColor = "green";
-    }else{
-        r_ram.style.backgroundColor = "white";
-        o_rom.style.backgroundColor = "white";
-        m_dma.style.backgroundColor = "white";
     }
 }
 
@@ -83,10 +64,6 @@ function check_dma(){
         d_dma.style.backgroundColor = "green";
         m_dma.style.backgroundColor = "green";
         a_dma.style.backgroundColor = "green";
-    }else{
-        d_dma.style.backgroundColor = "white";
-        m_dma.style.backgroundColor = "white";
-        a_dma.style.backgroundColor = "white";
     }
 }
 
@@ -106,14 +83,6 @@ function check_data_bus(){
         b_data.style.backgroundColor = "green";
         u_data.style.backgroundColor = "green";
         s_data.style.backgroundColor = "green";
-    }else{
-        d_dma.style.backgroundColor = "white";
-        a_data.style.backgroundColor = "white";
-        t_data.style.backgroundColor = "white";
-        a2_data.style.backgroundColor = "white"; 
-        b_data.style.backgroundColor = "white";
-        u_data.style.backgroundColor = "white";
-        s_data.style.backgroundColor = "white";
     }
 }
 
@@ -137,16 +106,6 @@ function check_adress_bus(){
         b_adress.style.backgroundColor = "green";
         u_adress.style.backgroundColor = "green";
         s_adress.style.backgroundColor = "green";
-    }else{
-        a2_data.style.backgroundColor = "white";
-        d_adress.style.backgroundColor = "white";
-        r_adress.style.backgroundColor = "white";
-        e_adress.style.backgroundColor = "white";
-        s1_adress.style.backgroundColor = "white";
-        s2_adress.style.backgroundColor = "white";
-        b_adress.style.backgroundColor = "white";
-        u_adress.style.backgroundColor = "white";
-        s_adress.style.backgroundColor = "white";
     }
 }
 
@@ -162,12 +121,6 @@ function check_eprom(){
         r_eprom.style.backgroundColor = "green";
         o_eprom.style.backgroundColor = "green";
         m_eprom.style.backgroundColor = "green";
-    }else{
-        e_adress.style.backgroundColor = "white";
-        p_eprom.style.backgroundColor = "white";
-        r_eprom.style.backgroundColor = "white";
-        o_eprom.style.backgroundColor = "white";
-        m_eprom.style.backgroundColor = "white";
     }
 }
 
@@ -201,21 +154,6 @@ function check_memoria(){
         s_memoria.style.backgroundColor = "green";
         s2_memoria.style.backgroundColor = "green";
         a3_memoria.style.backgroundColor = "green";
-    }else{
-        m_eprom.style.backgroundColor = "white";
-        e_memoria.style.backgroundColor = "white";
-        m_memoria.style.backgroundColor = "white";
-        o_memoria.style.backgroundColor = "white";
-        r_memoria.style.backgroundColor = "white";
-        i_memoria.style.backgroundColor = "white";
-        a_dual.style.backgroundColor = "white";
-        d_memoria.style.backgroundColor = "white";
-        e2_memoria.style.backgroundColor = "white";
-        m2_memoria.style.backgroundColor = "white";
-        a2_memoria.style.backgroundColor = "white";
-        s_memoria.style.backgroundColor = "white";
-        s2_memoria.style.backgroundColor = "white";
-        a3_memoria.style.backgroundColor = "white";
     }
 }
 
@@ -231,12 +169,6 @@ function check_flash(){
         a_flash.style.backgroundColor = "green";
         s2_adress.style.backgroundColor = "green";
         h_flash.style.backgroundColor = "green";
-    }else{
-        f_flash.style.backgroundColor = "white";
-        l_flash.style.backgroundColor = "white";
-        a_flash.style.backgroundColor = "white";
-        s2_adress.style.backgroundColor = "white";
-        h_flash.style.backgroundColor = "white";
     }
 }
 
@@ -246,9 +178,6 @@ function check_i5(){
     if(letter_r9c12.toLowerCase() == "i" & letter_r9c13 == "5"){
         i_memoria.style.backgroundColor = "green";
         i5.style.backgroundColor = "green";
-    }else{
-        i_memoria.style.backgroundColor = "white";
-        i5.style.backgroundColor = "white";
     }
 }
 function check_i7(){
@@ -257,9 +186,6 @@ function check_i7(){
     if(letter_r9c12.toLowerCase() == "i" & letter_r9c13 == "5"){
         i_registradores.style.backgroundColor = "green";
         i7.style.backgroundColor = "green";
-    }else{
-        i_registradores.style.backgroundColor = "white";
-        i7.style.backgroundColor = "white";
     }
 }
 
@@ -282,15 +208,6 @@ function check_dual_core(){
         o_dual.style.backgroundColor = "green";
         r_dual.style.backgroundColor = "green";
         e_dual.style.backgroundColor = "green";
-    }else{
-        d_dual.style.backgroundColor = "white";
-        u_dual.style.backgroundColor = "white";
-        a_dual.style.backgroundColor = "white";
-        l_dual.style.backgroundColor = "white";
-        c_dual.style.backgroundColor = "white";
-        o_dual.style.backgroundColor = "white";
-        r_dual.style.backgroundColor = "white";
-        e_dual.style.backgroundColor = "white";
     }
 }
 
@@ -322,20 +239,6 @@ function check_registradores(){
         r2_registradores.style.backgroundColor = "green";
         e_registradores.style.backgroundColor = "green";
         s2_registradores.style.backgroundColor = "green";
-    }else{
-        r_registradores.style.backgroundColor = "white";
-        e2_memoria.style.backgroundColor = "white";
-        g_registradores.style.backgroundColor = "white";
-        i_registradores.style.backgroundColor = "white";
-        s_registradores.style.backgroundColor = "white";
-        t_registradores.style.backgroundColor = "white";
-        r3_registradores.style.backgroundColor = "white";
-        a_registradores.style.backgroundColor = "white";
-        d_registradores.style.backgroundColor = "white";
-        o_registradores.style.backgroundColor = "white";
-        r2_registradores.style.backgroundColor = "white";
-        e_registradores.style.backgroundColor = "white";
-        s2_registradores.style.backgroundColor = "white";
     }
 }
 
@@ -357,14 +260,5 @@ function check_quad_core(){
         o_quad.style.backgroundColor = "green";
         r_quad.style.backgroundColor = "green";
         e_dual.style.backgroundColor = "green";
-    }else{
-        q_quad.style.backgroundColor = "white";
-        u_quad.style.backgroundColor = "white";
-        a_quad.style.backgroundColor = "white";
-        d_quad.style.backgroundColor = "white";
-        c_quad.style.backgroundColor = "white";
-        o_quad.style.backgroundColor = "white";
-        r_quad.style.backgroundColor = "white";
-        e_dual.style.backgroundColor = "white";
     }
 }
